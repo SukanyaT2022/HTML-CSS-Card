@@ -1,0 +1,68 @@
+*{
+margin: 0;   
+padding: 0;
+}
+
+.container{
+width: 100%;
+
+display: flex;
+justify-content: center;
+
+
+
+}
+.smallBox{
+    width: 25%;
+    height: 400px;
+    background:linear-gradient(to top left, purple,orange);
+    /* to bottom right- or to top/ to right / or use 30 deg*/
+    
+    margin:40px 20px;
+    text-align: center;
+   
+     
+}
+.social{
+text-align: center;
+ margin: 20px;
+ font-size: 30px;
+ color: pink;
+}
+hr{
+   width: 80%;
+   margin: auto;
+}
+
+/* grid*/
+
+
+.bigBox{
+    width: 90%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));/*minmax is width*/
+    margin: 30px auto;
+    grid-gap: 20px;
+ 
+}
+
+.tinyBox{
+  
+    text-align: center;
+   margin-top:30px;
+   background: linear-gradient(yellow, orange);
+
+}
+.tinyBox .fa-brands{
+color: blue;
+font-size: 50px;
+text-align: center;
+margin:30px;
+}
+.tinyBox hr{
+    height: 5px;
+    background-color: greenyellow;
+}
+
+    
